@@ -1,0 +1,10 @@
+export { default as Login } from "./Login";
+export { default as Register } from "./Register";
+export { default as Auth } from "./Auth";
+export { default as NotFound } from "./NotFound";
+export { default as AppLayout } from "./AppLayout";
+export { default as Movies } from "./Movies";
+export { default as Movie } from "./Movie";
+export { default as Error } from "./Error";
+export { default as Loading } from "./Loading";
+export { default as Favorites } from "./Favorites";

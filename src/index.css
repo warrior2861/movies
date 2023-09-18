@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.ql-editor,
+.ql-blank {
+  min-height: 13rem;
+  font-size: 16px;
+}
+
+@layer components {
+  .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(./assets/photo-2.avif);
+    background-position: 100% 25%;
+    /* background-size: 100% auto; */
+    place-items: start;
+    /* background-size: contain; */
+  }
+}
